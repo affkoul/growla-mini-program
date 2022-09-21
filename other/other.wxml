@@ -1,0 +1,48 @@
+<view class="intro">
+
+  <!--view class="tips_botton" bindtap="dwonApp">点击下载app</view-->
+
+  <view class="submit">
+    <view class="title">选择反馈提交</view>
+    <checkbox-group bindchange="checkboxChange">
+      <view  class="content" wx:key="key" wx:for="{{feedback_list}}"  wx:for-index="idx" wx:for-item="item">
+      <checkbox value="{{item.id}}" ></checkbox>
+      <view class="content_title">{{item.title}}</view>
+      <!-- <view class="content_title">问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4问题4</view> -->
+     </view>
+    </checkbox-group>
+    <!-- <view wx:for="{{feedback_list}}" wx:key="key" wx:for-index="idx" wx:for-item="item">
+      <view class="list">
+      <text>{{item.title}}</text>
+      <checkbox  class="redio_view" color="#4dbec1"  value="{{item.id}}"  ></checkbox >
+    </view>
+    </view> -->
+    <!-- <view class="list">
+      <text>我需要功能1</text>
+       <image src="../images/dot_1.png"></image> 
+      <radio class="redio_view" color="#4dbec1" ></radio>
+    </view>
+
+    <view class="list">
+      <text>我需要功能1</text>
+      <radio class="redio_view" color="#4dbec1" ></radio>
+    </view>
+
+
+    <view class="list">
+      <text>我需要功能1</text>
+      <radio class="redio_view" color="#4dbec1" ></radio>
+    </view>
+
+    <view class="list">
+      <text>我需要功能1</text>
+      <radio class="redio_view" color="#4dbec1" ></radio>
+    </view> -->
+
+    <view class="submit_botton" bindtap="submit_fankui">提交反馈</view>
+
+  </view>
+
+
+
+</view>

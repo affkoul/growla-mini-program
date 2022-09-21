@@ -1,0 +1,12 @@
+<!--Tips/Tips.wxml-->
+<view class="intro">
+    <view class="tips">
+        <image src="../images/tips.png"></image>
+
+    </view>
+    <view class="tips_text">{{tips_text}}</view>
+    <view class="tips_botton" bindtap="bofang">{{btn_text}}</view>
+
+
+
+</view>

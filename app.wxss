@@ -1,0 +1,72 @@
+page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    width: 750rpx;
+    position: relative;
+    height: 100%
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.font1 {
+    color: #262E3A;
+}
+
+.font2 {
+    margin-left: -10rpx;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(77, 190, 193, 1);
+    font-family: PingFangSC-Regular;
+    white-space: nowrap;
+    line-height: 28rpx;
+    text-align: center;
+}
+
+.font3 {
+    margin-left: -5rpx;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(169, 175, 184, 1);
+    font-family: PingFangSC-Regular;
+    white-space: nowrap;
+    line-height: 28rpx;
+    text-align: center;
+}
+
+.font4 {
+    margin-left: -10rpx;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(169, 175, 184, 1);
+    font-family: PingFangSC-Regular;
+    white-space: nowrap;
+    line-height: 28rpx;
+    text-align: center;
+}
+
+.font5 {
+    margin-left: -5rpx;
+    display: block;
+    overflow-wrap: break-word;
+    color: rgba(77, 190, 193, 1);
+    font-family: PingFangSC-Regular;
+    white-space: nowrap;
+    line-height: 28rpx;
+    text-align: center;
+}
+
+input {
+    caret-color: #A9AFB8;
+}

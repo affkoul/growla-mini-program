@@ -1,0 +1,8 @@
+<view class="intro">
+    <view class="logo">
+        <image src="../images/logo.png"></image>
+    </view>
+    <view class="bottom">
+        <image src="../images/loading.png"></image>
+    </view>
+</view>

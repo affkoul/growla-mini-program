@@ -1,0 +1,16 @@
+.p_box{ 
+  padding: 0 30rpx;
+}
+.list{
+  margin-bottom: 20rpx;
+}
+.title{
+  font-size: 32rpx;
+  color: #0F1826;
+  margin-bottom: 10rpx;
+}
+.content{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #6E7580;
+}

@@ -1,0 +1,11 @@
+<!--play/play.wxml-->
+<view class="video_box">
+    <video src="{{current_Mp4}}" custom-cache="{undefined{false}}"></video>
+    <!-- <image class="play" src="../images/play.png"></image> -->
+</view>
+
+<view class="video_b">
+    <image class="l" src="../images/left.png" bindtap="leftTap"></image>
+    <text class="video_m font1">{{current_title}}</text>
+    <image class="r" src="../images/right.png" bindtap="rightTap"></image>
+</view>

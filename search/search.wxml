@@ -1,0 +1,74 @@
+<view class="search">
+
+    <view class="search_top">
+        <image class="search_ficon" src="../images/search_ficon.png"></image>
+        <input class="search_input" value="{{searchVal}}" bindinput="bindKeyInput" type="text" placeholder="请输入课程标题" />
+        <image class="close" src="../images/close.png" bindtap="resetSearch"></image>
+    </view>
+
+    <!-- <view class="search_list">
+        <view class="list_l l">
+            <image src="../images/search_img.png"></image>
+        </view>
+        <view class="list_r r">
+            <view class="title">0-3 育儿教育大课程</view>
+            <view class="content">
+                <text>糖果罐里好多颜色,微笑却不甜了,你的某些快乐 在没有我的时刻,中古世纪的城市里 我想就走到这,海鸥不再眷恋大海 可以飞更远,远方传来风笛 我只在意有你的消息,城堡为爱守着秘密
+                    而我为你守着回忆,明明就 不习惯 牵手 为何却主动把手勾你的心事太多 我不会戳破 明明就 他比较 温柔 也许他能给你更多 不用决择 我会自动变朋友 </text>
+            </view>
+            <view class="look" bindtap="toDetails">查看详情</view>
+        </view>
+    </view>
+
+    <view class="search_list">
+        <view class="list_l l">
+            <image src="../images/search_img.png"></image>
+        </view>
+        <view class="list_r r">
+            <view class="title">周杰伦 明明就</view>
+            <text>糖果罐里好多颜色,微笑却不甜了,你的某些快乐 在没有我的时刻,中古世纪的城市里 我想就走到这,海鸥不再眷恋大海 可以飞更远,远方传来风笛 我只在意有你的消息,城堡为爱守着秘密 而我为你守着回忆,明明就
+                不习惯 牵手 为何却主动把手勾你的心事太多 我不会戳破 明明就 他比较 温柔 也许他能给你更多 不用决择 我会自动变朋友 </text>
+            <view class="look">查看详情</view>
+        </view>
+    </view>
+
+    <view class="search_list">
+        <view class="list_l l">
+            <image src="../images/search_img.png"></image>
+        </view>
+        <view class="list_r r">
+            <view class="title">周杰伦 明明就</view>
+            <text>糖果罐里好多颜色,微笑却不甜了,你的某些快乐 在没有我的时刻,中古世纪的城市里 我想就走到这,海鸥不再眷恋大海 可以飞更远,远方传来风笛 我只在意有你的消息,城堡为爱守着秘密 而我为你守着回忆,明明就
+                不习惯 牵手 为何却主动把手勾你的心事太多 我不会戳破 明明就 他比较 温柔 也许他能给你更多 不用决择 我会自动变朋友 </text>
+            <view class="look">查看详情</view>
+        </view>
+    </view>
+
+
+    <view class="search_list">
+        <view class="list_l l">
+            <image src="../images/search_img.png"></image>
+        </view>
+        <view class="list_r r">
+            <view class="title">周杰伦 明明就</view>
+            <text>糖果罐里好多颜色,微笑却不甜了,你的某些快乐 在没有我的时刻,中古世纪的城市里 我想就走到这,海鸥不再眷恋大海 可以飞更远,远方传来风笛 我只在意有你的消息,城堡为爱守着秘密
+                而我为你守着回忆,明明就 不习惯 牵手 为何却主动把手勾你的心事太多 我不会戳破 明明就 他比较 温柔 也许他能给你更多 不用决择 我会自动变朋友 </text>
+            <view class="look">查看详情</view>
+        </view>
+    </view> -->
+
+    <view wx:for="{{course_list}}" wx:key="key" wx:for-index="idx" wx:for-item="item">
+        <view class="search_list">
+            <view class="list_l l">
+                <image src="{{item.file}}"></image>
+            </view>
+            <view class="list_r r">
+                <view class="title">{{item.shortname}}</view>
+                <view class="content">
+                    <text>{{item.fullname}} </text>
+                </view>
+                <view class="look" data-course_id='{{item.id}}' bindtap="toDetails">查看详情</view>
+            </view>
+        </view>
+    </view>
+</view>

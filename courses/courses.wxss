@@ -1,0 +1,42 @@
+/* search/search.wxss */
+.search {
+    background-color: #F5F6FA;
+    min-height: 100%;
+    padding-top: 30rpx;
+}
+
+
+
+.history_list {
+    margin: 30rpx 30rpx 30rpx;
+    background-color: #fff;
+    border-radius: 10rpx;
+    height: auto;
+    height: 110rpx;
+}
+.history_list::content{
+    clear: both;
+    
+}
+.history_l{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 60%;
+    font-size: 32rpx;
+    margin-left: 30rpx;
+    color: #6E7580;
+    line-height: 110rpx;
+}
+.history_r{
+    width: 90rpx;
+    height: 46rpx;
+    font-size: 24rpx;
+    border-radius: 20rpx;
+    background-color: #7FB844;
+    color: #fff;
+    text-align: center;
+    line-height: 45rpx;
+    margin-right: 30rpx;
+    margin-top: 32rpx;
+}

@@ -1,0 +1,139 @@
+page{
+  background-color: #F5F6FA;
+  height: auto;
+  padding-bottom: 200rpx;
+}
+.tips_botton{    
+  width: 680rpx;
+  height: 90rpx;
+  background-color: #4DBEC1;
+  color: #FFF;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+.submit{
+  background-color: #fff;
+  margin: 30rpx auto;
+  width: 690rpx;
+  padding-bottom: 30rpx;
+  border-radius: 20rpx;
+}
+.title{
+  padding: 20rpx;
+  font-size: 36rpx;
+  color: #333B46;
+}
+.list{
+  height: 50rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.list image{
+  float: right;
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+}
+
+
+.submit_botton{    
+  width:640rpx;
+  height: 90rpx;
+  background-color: #4DBEC1;
+  color: #FFF;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  margin: 50rpx auto 20rpx;
+}
+
+
+/* .redio_view{
+  float: right;
+  margin-right: 25rpx;
+}
+radio .wx-radio-input.wx-radio-input-checked {
+  border-color: #4dbec1;
+  background: #4dbec1;
+} */
+/* 自定义样式.... */
+radio .wx-radio-input {
+  height: 30rpx; /*对勾大小*/
+  width: 30rpx;
+  margin-top: -4rpx;
+  border-radius: 50%;
+  border: 2rpx solid #4dbec1;
+  background: transparent;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before {
+  border-radius: 50%; /* 圆角 */
+  width: 30rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 30rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 30rpx;/* 选中后对勾的垂直方向，等于radio的高度 */
+  text-align: center;
+  font-size: 24rpx; /* 对勾大小 30rpx */
+  color: #fff; /* 对勾颜色 白色 */
+  background: #4dbec1;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+
+.content{
+  width: 90%;
+  /* height: 150rpx; */ /*add by lvt*/
+  padding: 0 20rpx;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+checkbox-group{
+  position: relative;
+}
+/*checkbox 整体大小  */
+checkbox{ 
+
+}
+
+/*checkbox 选项框大小  */
+checkbox .wx-checkbox-input {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%; 
+}
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background:#4dbec1;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%; 
+}
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+
+.content_title{
+  display:flex;
+  margin-left: 10px;
+  display: inline-block;
+  text-align: justify;
+  line-height: 40rpx;
+}
+
+
+
+

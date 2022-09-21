@@ -1,0 +1,6 @@
+<view class="intro">
+
+    <view class="page-section page-section-gap">
+        <web-view src="https://wechat.growlaasia.com/web/app.html"></web-view>
+    </view>
+</view>

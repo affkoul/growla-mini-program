@@ -1,0 +1,49 @@
+/* play/play.wxss */
+video {
+    height: 420rpx;
+    width: 100%;
+}
+
+.video_box{
+    position: relative;
+    height: 420rpx;
+}
+.video_box image{
+    width: 80rpx;
+    height: 80rpx;
+    display: block;
+}
+.play{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-left: -40rpx;
+    margin-top: -290rpx;
+}
+
+.video_b {
+    height: 100rpx;
+    width: 100%;
+ 
+}
+
+.video_b::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.video_b image {
+    width: 40rpx;
+    height: 40rpx;
+    margin:30rpx;
+}
+
+
+.video_m {
+    text-align: center;
+    line-height: 100rpx;
+    display: inline-block;
+    width: 550rpx;
+    font-weight: 400;
+}

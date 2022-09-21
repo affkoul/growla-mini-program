@@ -1,0 +1,36 @@
+<view class="my_top">
+    <view class="touxiang">
+        <image src="{{userInfo.head_img}}"></image>
+    </view>
+    <view class="name">{{userInfo.username}}</view>
+</view>
+
+
+<view class="my_list" bindtap="toBrowseHistory">
+    <image class="l" src="../images/my_4.png"></image>
+    <text>我的浏览记录</text>
+    <image class="r" src="../images/my_1.png"></image>
+</view>
+
+<view class="my_list" bindtap="toXuankeHistory">
+    <image class="l" src="../images/my_3.png"></image>
+    <text>我的选课记录</text>
+    <image class="r" src="../images/my_1.png"></image>
+</view>
+
+<view class="my_list" bindtap="toQita">
+    <image class="l" src="../images/my_2.png"></image>
+    <text>其他</text>
+    <image class="r" src="../images/my_1.png"></image>
+</view>
+
+<view class="my_bottom">
+    <view class="index l" bindtap="toIndex">
+        <image src="../images/index.png"></image>
+        <view class="font4">首页</view>
+    </view>
+    <view class="my r">
+        <image src="../images/my_open.png"></image>
+        <view class="font5">我的</view>
+    </view>
+</view>

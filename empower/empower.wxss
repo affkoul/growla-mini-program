@@ -1,0 +1,102 @@
+page {
+  height: auto;
+}
+
+.logo {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 200rpx auto;
+}
+
+.logo image {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.bottom {
+  width: 690rpx;
+  height: 90rpx;
+  background-color: #4DBEC1;
+  color: #FFF;
+  font-size: 32rpx;
+  line-height: 55rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  margin: 500rpx auto 10rpx;
+}
+
+.agren {
+  width: 690rpx;
+  margin: 20rpx auto 0;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+}
+
+.agren image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  margin-top: 10rpx;
+}
+
+.agren_text {
+  display: inline-block;
+  font-size: 24rpx;
+}
+
+.agren_dot {
+  margin-right: 20rpx;
+  width: 50rpx;
+  margin-top: 10rpx;
+}
+
+.agren_text {
+  width: 620rpx;
+  line-height: 60rpx;
+
+}
+
+
+.redio_view {
+  margin-left: 25rpx;
+  color: "#4dbec1";
+  margin-top: -3px;
+
+}
+
+radio .wx-radio-input.wx-radio-input-checked {
+  border-color: #4dbec1;
+  background: #4dbec1;
+}
+
+/* 自定义样式.... */
+radio .wx-radio-input {
+  height: 30rpx;
+  /*对勾大小*/
+  width: 30rpx;
+  margin-top: -4rpx;
+  border-radius: 50%;
+  border: 2rpx solid #4dbec1;
+  background: transparent;
+}
+
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before {
+  border-radius: 50%;
+  /* 圆角 */
+  width: 30rpx;
+  /* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 30rpx;
+  /* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 30rpx;
+  /* 选中后对勾的垂直方向，等于radio的高度 */
+  text-align: center;
+  font-size: 24rpx;
+  /* 对勾大小 30rpx */
+  color: #fff;
+  /* 对勾颜色 白色 */
+  background: #4dbec1;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

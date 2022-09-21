@@ -1,0 +1,7 @@
+{
+    "onReachBottomDistance": 80,
+    "component": true,
+    "usingComponents": {},
+    "navigationBarTitleText": "我的浏览记录"
+
+}

@@ -1,0 +1,33 @@
+/* Tips/Tips.wxss */
+.tips{
+  margin-top: 80rpx;
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
+
+.tips image{
+  width: 320rpx;
+  height: 320rpx;
+}
+
+.tips_text{
+width: 100%;
+line-height: 80rpx;
+text-align: center;
+margin: 50rpx 0;
+color: #6E7580;
+font-size: 32rpx;
+
+}
+.tips_botton{    
+  width: 680rpx;
+  height: 90rpx;
+  background-color: #4DBEC1;
+  color: #FFF;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,33 @@
+<view class="d_top">
+  <image src="{{course_details.imageUrl}}"></image>
+</view>
+
+<view class="d_contain">
+  <view class="title_keshi">
+    <!--view class="title">0-3教育大课程</view>
+  <view class="keshi">20课时</view-->
+    <view class="title">{{course_details.title}}</view>
+    <view class="keshi">{{course_details.course_duration}}课时</view>
+  </view>
+
+  <view class="d_list">
+    <view class="l style1">课程类型</view>
+    <view class="l style2">{{course_details.type}}</view>
+  </view>
+
+  <view class="d_list">
+    <view class="l style1">开课时间</view>
+    <view class="l style2">{{course_details.startdate}}</view>
+  </view>
+
+  <view class="d_list">
+    <view class="style1">课程简介</view>
+    <view class="style3">{{course_details.desc}} </view>
+
+  </view>
+
+</view>
+
+<view class="d_bottom">
+  <view class="submit" bindtap="xuanke" data-course_id="{{course_details.id}}">{{select_text}}</view>
+</view>

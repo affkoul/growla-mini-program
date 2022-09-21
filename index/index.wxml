@@ -1,0 +1,77 @@
+<view>
+  <!-- 自定义头部 -->
+  <view class='nav bg-white' style='height:{{navH}}px' bindtap="toSearch">
+    <view class='nav-title'>
+      <view class="INinputheader">
+        <icon class="INsearchicon" type="search" size="20" />
+        <input class="weui-input" placeholder="点击进入搜索页" disabled="disabled" />
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 轮播图 -->
+<view class='banner'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}" next-margin="{{nextMargin}}" circular="{{circular}}" bindchange="swiperBindchange">
+    <block wx:for="{{imgUrls}}" wx:for-item="Img" wx:key="key">
+      <swiper-item>
+        <image src="{{Img.file}}" class="slide-image {{currentSwiperIndex == index ? 'zoom-in' : 'zoom-out'}}" bindtap="coursesDetail" data-courses_id="{{Img.id}}"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- 专家团队-->
+<view class="team">
+  <view class="title">专家团队</view>
+  <view class="team_list">
+    <view wx:for="{{expert_list}}" wx:key="key" wx:for-index="idx" wx:for-item="item" style="width:32%;margin:2px">
+      <image src="{{item.headpic}}"   mode="aspectFill"></image>
+    </view>
+    <!-- <image src="../images/index_1.png"></image>
+    <image src="../images/index_2.png"></image>
+    <image src="../images/index_3.png"></image> -->
+  </view>
+</view>
+
+<!-- 介绍-->
+<view class="team">
+  <view class="title">介绍</view>
+  <view class="introduct">
+    GROWLA教育创建于2007年专为为有学习英语需求的学员提供英语辅导教学。采取“直播+辅导"双师模式AI技术辅助教学。总部设立在北京先后在上海、广州、深圳、天津、杭州、成都、西安、南京等地成立分支机构。
+  </view>
+  <view class="introduct_img">
+    <image src="../images/index_7.png"></image>
+  </view>
+
+  <view class="introduct_list">
+    <view class="list_1">
+      <image src="../images/index_5.png"></image>
+      <text class="list_1_text1">教职员工</text>
+      <text class="list_1_text2">3000+</text>
+    </view>
+    <view class="list_1">
+      <image src="../images/index_6.png"></image>
+      <text class="list_1_text1">覆盖城市</text>
+      <text class="list_1_text2">200+</text>
+    </view>
+    <view class="list_1">
+      <image src="../images/index_4.png"></image>
+      <text class="list_1_text1">上课学员</text>
+      <text class="list_1_text2">30W+</text>
+    </view>
+  </view>
+</view>
+
+
+<!-- 底部-->
+<view class="my_bottom">
+  <view class="index l">
+    <image src="../images/index_open.png"></image>
+    <view class="font2">首页</view>
+  </view>
+  <view class="my r" bindtap="toMyhome">
+    <image src="../images/my.png"></image>
+    <view class="font3">我的</view>
+  </view>
+</view>

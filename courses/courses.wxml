@@ -1,0 +1,26 @@
+<view class="search">
+
+
+  <view wx:for="{{my_course}}" wx:key="key" wx:for-index="idx" wx:for-item="item" bindtap="goToDetail"
+      data-course_id="{{item.courseid}}">
+      <view class="history_list">
+         <view class="l history_l">{{item.shortname}}</view>
+         <view class="r history_r">免费</view>
+      </view>
+   </view>
+   <!-- <view class="history_list">
+       <view class="l history_l">0-3育儿教育大课程</view>
+       <view class="r history_r">免费</view>
+    </view>
+
+    <view class="history_list">
+       <view class="l history_l">0-3育儿教育大课程</view>
+       <view class="r history_r">免费</view>
+    </view>
+
+    <view class="history_list">
+       <view class="l history_l">0-3育儿教育大课程</view>
+       <view class="r history_r">免费</view>
+    </view> -->
+
+</view>

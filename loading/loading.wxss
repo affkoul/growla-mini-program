@@ -1,0 +1,24 @@
+
+.logo{
+  position: absolute;
+  width: 100%;
+  top: 200rpx ; 
+  display: flex;
+  justify-content: center;
+}
+.logo image{  
+  width: 160rpx;
+  height: 160rpx;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 120rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bottom image{
+  width:328rpx ;
+  height: 72rpx;
+}

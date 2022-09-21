@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "loading/loading",
+    "dwonapp/dwonapp",
+    "history/history",
+    "courses/courses",
+    "my/my",
+    "search/search",
+    "index/index",
+    "details/details",
+    "service/service",
+    "play/play",
+    "policy/policy",
+    "empower/empower",
+    "Tips/Tips",
+    "success/success",
+    "other/other"
+    
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序接口展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "GROWLA",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

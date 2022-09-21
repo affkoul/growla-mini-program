@@ -1,0 +1,23 @@
+<view class="box">
+    <view class="logo">
+        <image src="../images/logo.png"></image>
+    </view>
+    <view class="bottom">
+        <!-- <button  class="bottom"  wx:if="{{isuserInfo}}" open-type="getUserInfo" 
+        bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
+        <block wx:if="{{isuserInfo}}">
+            <button class="bottom" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile">
+                授权登录 </button>
+            <button class="bottom" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+                授权登录 </button>
+        </block>
+        <button class="bottom" wx:if="{{isuserTelphone}}" open-type='getPhoneNumber'
+            bindgetphonenumber="getPhone">手机号一键登录</button>
+    </view>
+
+    <view class="agren">
+        <radio  class="redio_view" bindtap="radioChange"></radio>
+        <view class="r agren_text">阅读并同意GROWLA的<text style="color:#4dbec1" bindtap="toService">《服务协议》</text>和<text
+                style="color:#4dbec1" bindtap="toPolicy">《用户保护政策》</text></view>
+    </view>
+</view>

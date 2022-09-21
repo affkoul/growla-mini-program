@@ -1,0 +1,11 @@
+<view class="intro">
+    <view class="tips">
+        <image src="../images/tips.png"></image>
+
+    </view>
+    <view class="tips_text">意见提交成功</view>
+    
+
+
+
+</view>

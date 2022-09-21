@@ -1,0 +1,110 @@
+/* details/details.wxss */
+
+page{
+  background-color: #F5F6FA;
+  height: auto;
+  padding-bottom: 200rpx;
+}
+.d_top{
+  width: 100%;
+  margin: 0;
+}
+.d_top image{
+  width: 100%;
+  height: 420rpx;
+}
+
+.d_contain{  
+  margin: 30rpx;
+  background-color: #fff;
+  height: 400rpx;
+  border-radius: 20rpx;
+  color: #6E7580;
+  padding: 30rpx;
+  padding-bottom: 50rpx;
+}
+
+
+.d_bottom {
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2rpx solid #EBEBEB;padding-top: 30rpx;
+  background-color: #F5F6FA;
+  padding-bottom: 50rpx;
+
+}
+
+
+
+
+.submit{    
+  width: 690rpx;
+  height: 90rpx;
+  background-color: #4DBEC1;
+  color: #FFF;
+  font-size: 32rpx;
+  line-height: 90rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title_keshi{
+  display: flex;
+}
+
+.title{
+  height: 60rpx;
+  font-size: 36rpx;
+}
+
+.keshi{
+  height: 44rpx;
+  font-size: 24rpx;
+  border-radius: 6rpx;
+  background-color: #7FB844;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  color: #fff;
+  text-align: center;
+  margin-left: 30rpx;
+    padding: 0 10rpx;
+}
+
+
+.d_list{
+  width: 620rpx;
+  margin-top: 20rpx;
+  clear: both;
+}
+.d_contain view{
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+.style1{
+  float: left;
+  width: 25%;
+}
+.style2{
+  margin-left: 20px; /* add by lvt*/
+  /* width:75%;  */ /* add by lvt*/
+  float: left;
+  font-size: 28rpx;
+}
+
+.style3{
+  width:72%;  /* add by lvt*/
+  float: left;
+  font-size: 28rpx;
+  margin-top: -25px;
+  margin-inline: 82px; /* add by lvt*/
+  display: -webkit-box;
+  word-break: break-all;  
+  text-overflow: ellipsis;  
+  overflow: hidden;  
+  text-align: left;
+  -webkit-box-orient: vertical;  
+  -webkit-line-clamp:5; 
+}
