@@ -20,8 +20,8 @@ This is the primary repository of source code for the official GROWLA Mini-progr
 
 World Wide Integrated Education PaaS Provided by [GROWLA Limited](https://growla.com)
 
-![GROWLA Logo](https://hwlsdtech.com:8081/images/growla-favicon.ico)
+![GROWLA Logo](https://hlwsdtech.com:8081/images/growla-favicon.ico)
 
 Built by [GAC DEV](https://geniusandcourage.com)
 
-![World Wide Integrated Education PaaS](https://hwlsdtech.com:8081/images/wgwu.jpg)
+![World Wide Integrated Education PaaS](https://hlwsdtech.com:8081/images/wgwu.jpg)
