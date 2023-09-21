@@ -24,4 +24,4 @@ World Wide Integrated Education PaaS Provided by [GROWLA Limited](https://growla
 
 Built by [GAC DEV](https://geniusandcourage.com)
 
-![World Wide Integrated Education PaaS](https://geniusandcourage.com/growla/Growla_PaaS-min.png)
+![World Wide Integrated Education PaaS](https://hwlsdtech.com:8081/images/wgwu.jpg)
